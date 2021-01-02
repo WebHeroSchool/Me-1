@@ -1,0 +1,15 @@
+
+.title {
+  font-family: Roboto;
+}
+
+article {
+  border: dashed 1px #000;
+}
+
+p {font-family: arial;}
+
+footer {
+  background: yellowgreen;
+  font-weight: bold;
+}
