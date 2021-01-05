@@ -21,7 +21,8 @@ p {fon-family: arial;}
 }
 
 .logo{
-  padding: 40px 0;
+  position: relative;
+  padding: 40px 0px;
   padding-left: 44px;
   font: bold 24px/31px pt_serif,arial,helvetics,sans-serif;
 }
@@ -29,15 +30,17 @@ p {fon-family: arial;}
 .logo__circle{
   width: 28px;
   height: 28px;
-  border: dashed 1px red;
 }
+
 .logo__circle{
   position: absolute;
   left: 0;
   top: 50%;
-  transition: translateY(-50%);
+  transform: translateY(-50%);
   width: 28px;
   height: 28px;
+  border-radius: 50%;
+  opacity: .7;
 }
 
 .logo__circle_color_blue{
