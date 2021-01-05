@@ -3,10 +3,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-article{
-  border: dashed 1px #000;
-}
-
 p {fon-family: arial;}
 
 .wrapper{
@@ -19,12 +15,39 @@ p {fon-family: arial;}
 }
 
 .header{
-  display:flex;
+   padding: 40px 0;
+   display:flex;
    justify-content: space-between;
 }
 
 .logo{
   padding: 40px 0;
+  padding-left: 44px;
+  font: bold 24px/31px pt_serif,arial,helvetics,sans-serif;
+}
+
+.logo__circle{
+  width: 28px;
+  height: 28px;
+  border: dashed 1px red;
+}
+.logo__circle{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transition: translateY(-50%);
+  width: 28px;
+  height: 28px;
+}
+
+.logo__circle_color_blue{
+left: 8px;
+top: 56%;
+background: #C8DBFB;
+}
+
+.logo__circle_color_dark-blue{
+  background: #0056EC;
 }
 
 .menu{
