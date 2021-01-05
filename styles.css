@@ -9,19 +9,13 @@ article{
 
 p {fon-family: arial;}
 
-.menu__item{
-  border: dashed 1px red;
-}
-
 .wrapper{
-  border: dashed 1px red;
   margin: auto;
   width: 80%;
 }
 
 .logo,.menu{
   display: inline-block;
-  border: dashed 1px red;
 }
 
 .header{
@@ -40,7 +34,6 @@ p {fon-family: arial;}
 
 .menu__item{
   padding: 0 13px;
-  border: dashed 1px red;
 }
 
 .menu__item:last-child{
