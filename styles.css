@@ -1,9 +1,7 @@
 
 .title{
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto,sans-serif;
 }
-
-p {fon-family: arial;}
 
 .wrapper{
   margin: auto;
@@ -15,14 +13,14 @@ p {fon-family: arial;}
 }
 
 .header{
-   padding: 40px 0;
    display:flex;
    justify-content: space-between;
+   padding: 40px;
 }
 
 .logo{
   position: relative;
-  padding: 40px 0px;
+  padding: 0px;
   padding-left: 44px;
   font: bold 24px/31px pt_serif,arial,helvetics,sans-serif;
 }
@@ -61,7 +59,7 @@ background: #C8DBFB;
 .menu__item{
   position: relative;
   margin-right: 26px;
-  font: 500 18px/21px Roboto,aria,helvetics,sans-serif;
+  font: 500 14px/16px Roboto,normal,aria,helvetics,sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
@@ -89,4 +87,24 @@ background: #C8DBFB;
 
 .menu__item:last-child{
   margin-right: 0;
+}
+
+.main{
+  padding: 0 63% 100px 0;
+  background: top right no-repeat url(img/mainimg.svg);
+  background-position: center right;
+}
+
+.main__title{
+  margin: 0 0 40px 0;
+  font: bold 50px/65px pt_serif,arial,helvetics,sans-serif;
+}
+
+.main__subtitle{
+margin:0 0 41px 0;
+font: 500 18px/21px Roboto,arial,helvetics,sans-serif;
+}
+
+.main__button{
+font: 14px/16px Roboto,arial,helvetics,sans-serif;
 }
