@@ -15,7 +15,7 @@
 .header{
    display:flex;
    justify-content: space-between;
-   padding: 40px;
+   margin-bottom: 100px;
 }
 
 .logo{
@@ -106,5 +106,19 @@ font: 500 18px/21px Roboto,arial,helvetics,sans-serif;
 }
 
 .main__button{
+display: inline-block;
 font: 14px/16px Roboto,arial,helvetics,sans-serif;
+color: #fff;
+background: #0056EC;
+padding: 14px 16px;
+text-decoration: none;
+border-radius: 4px;
+}
+
+.main__button:hover{
+  opacity: .5;
+}
+
+.main__title-text_highlight{
+  background: #ECF3FF;
 }
