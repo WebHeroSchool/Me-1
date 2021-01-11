@@ -22,7 +22,7 @@
   position: relative;
   padding: 0px;
   padding-left: 44px;
-  font: bold 24px/31px pt_serif,arial,helvetics,sans-serif;
+  font: bold 24px/31px ptserif,arial,helvetics,sans-serif;
 }
 
 .logo__circle{
@@ -97,7 +97,7 @@ background: #C8DBFB;
 
 .main__title{
   margin: 0 0 40px 0;
-  font: bold 50px/65px pt_serif,arial,helvetics,sans-serif;
+  font: bold 50px/65px ptserif,arial,helvetics,sans-serif;
 }
 
 .main__subtitle{
